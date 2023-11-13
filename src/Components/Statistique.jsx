@@ -28,7 +28,7 @@ export default function Statistique() {
             <h1>DEPENSES : {totaldepenses} DH</h1>
         </div>
         <div className='ecart'>
-            <h1>ECART : {ecart} DH</h1>
+            <h1>ECART : {bdgajt && totaldepenses ? ecart : null} DH</h1>
         </div>
     </div>
     <div className='Ajout-budget'>
