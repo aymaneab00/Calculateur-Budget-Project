@@ -8,8 +8,10 @@ function App() {
 <div>
   <Header/>
   <Statistique/>
-  <ListeDepenses/>
+  <div className='list-ajout'>
   <AjoutDepense/>
+ <ListeDepenses/>
+  </div>
 </div>
   );
 }

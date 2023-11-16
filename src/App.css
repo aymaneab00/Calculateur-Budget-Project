@@ -71,3 +71,43 @@ border: 1px gray solid;
   background-color: green;
   border: 1px green solid;
 }
+.ajouter-depense{
+  padding: 20px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  gap: 5px;
+  width: 20%;
+  height: 110%;
+  background-color: rgb(198, 237, 224);
+  box-shadow: rgba(39, 203, 206, 0.35) 0px 5px 15px;  
+border: 1px gray solid;
+
+}
+.ajouter-depense input{
+  width: 80%;
+}
+.ajouter-depense button{
+  width: 80%;
+  color: white;
+  background-color: green;
+  border: 1px green solid;
+}
+.list-ajout{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+}
+.table-list table{
+  width: 500%;
+  
+}
+.table-list table th{
+  text-align: center;
+  color: white;
+  background-color: rgb(29, 212, 29);
+}
+ .rows :hover{
+background-color: rgb(233, 218, 218);
+}
