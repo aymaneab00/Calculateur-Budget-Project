@@ -6,7 +6,7 @@ export default function ListeDepenses() {
   console.log(listdepenses)
   return (
     <div>
-         <table>
+         <table border='1'>
         <tr>
             <td>Titre</td>
             <td>Montant</td>

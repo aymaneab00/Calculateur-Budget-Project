@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { useSelector } from 'react-redux';
+import { FaMoneyBill } from "react-icons/fa";
+
 
 export default function Statistique() {
     const depenses = useSelector(state=>state.depenses)
@@ -20,22 +22,27 @@ export default function Statistique() {
   return (
     <div>
 
-    <div className='container'>
+    <div className='container-stats'>
         <div className='budget'>
+        <FaMoneyBill className='money'/>
             <h1>BUDGET : {bdgajt} DH</h1>
         </div>
         <div className='depenses'>
+        <FaMoneyBill className='money'/>
             <h1>DEPENSES : {totaldepenses} DH</h1>
         </div>
         <div className='ecart'>
+        <FaMoneyBill className='money'/>
             <h1>ECART : {bdgajt && totaldepenses ? ecart : null} DH</h1>
         </div>
     </div>
-    <div className='Ajout-budget'>
+    <div >
 
-        <form onSubmit={(e)=>handlbudget(e)}>
-            <input type="text" value={budget} onChange={(e)=>setbudget(Number(e.target.value))}/>
+        <form className='Ajout-budget' onSubmit={(e)=>handlbudget(e)}>
+      
+               <input type="text" value={budget} placeholder='Donner votre budget' onChange={(e)=>setbudget(Number(e.target.value))}/>
             <button>Ajouter Budget</button>
+           
         </form>
 
     </div>

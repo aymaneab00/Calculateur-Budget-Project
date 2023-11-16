@@ -9,10 +9,11 @@ export default function AjoutDepense() {
  function handleajt(e){
 e.preventDefault();
 dispatch({type:"add-depense",payload1:titre,payload2:depense})
-
+settitre('');
+setdepense('');
  }
   return (
-    <div>
+    <div className='ajouter-depense'>
 <form onSubmit={(e)=>handleajt(e)}>
 
 <input type="text" placeholder='Titre de depense' value={titre} onChange={(e)=>settitre(e.target.value)} />
