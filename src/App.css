@@ -6,6 +6,8 @@
   background-color: green;
   color: aliceblue;
   text-align: center;
+  margin-bottom: 25px;
+  padding: 30px;
 }
 .container-stats{
   display: flex;
@@ -23,17 +25,26 @@
   color: aliceblue;
   align-items: center;
 }
-.container-stats .money{
-  height: 50%;
-  color: white;
+.money{
+font-size: 150px;
+  color: green;
+}
+.ecart .icon{
+  color: rgb(248, 108, 0);
+  font-size: 150px;
+
+}
+.depenses .icone{
+  color: rgb(248, 0, 0);
+  font-size: 150px;
 }
 .container-stats  .ecart{
   padding: 20px;
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(52, 242, 5, 0.35) 0px 5px 15px;  
-  background-color: rgb(22, 225, 22);
-  border: 1px black solid;
+  box-shadow: rgb(230, 230, 12) 0px 5px 15px;  
+  background-color: rgb(225, 205, 22);
+  border:1px solid  rgb(248, 108, 0);
   color: aliceblue;
   align-items: center;
 }
@@ -41,9 +52,9 @@
   display: flex;
   padding: 20px;
   flex-direction: column;
-  box-shadow: rgba(52, 242, 5, 0.35) 0px 5px 15px;  
-  background-color: rgb(22, 225, 22);
-  border: 1px black solid;
+  box-shadow: rgb(242, 5, 5) 0px 5px 15px;  
+  background-color: rgb(247, 143, 143);
+  border: 1px rgb(255, 0, 0) solid;
   color: aliceblue;
   align-items: center;
 }

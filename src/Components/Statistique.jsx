@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { FaMoneyBill } from "react-icons/fa";
+import { GiInjustice } from "react-icons/gi";
 
 export default function Statistique() {
   const depenses = useSelector((state) => state.depenses);
@@ -22,11 +23,11 @@ export default function Statistique() {
           <h1>BUDGET : {bdgajt} DH</h1>
         </div>
         <div className="depenses">
-          <FaMoneyBill className="money" />
+          <FaMoneyBill className="icone" />
           <h1>DEPENSES : {totaldepenses} DH</h1>
         </div>
         <div className="ecart">
-          <FaMoneyBill className="money" />
+          <GiInjustice className="icon" />
           <h1>ECART : {bdgajt && totaldepenses ? ecart : null} DH</h1>
         </div>
       </div>
