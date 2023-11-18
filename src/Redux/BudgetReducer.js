@@ -1,17 +1,17 @@
 const initial_state = {
   depenses: [
-    {
-      Titre: "Voiture",
-      montant: 40000,
-    },
-    {
-      Titre: "VentePc",
-      montant: 50000,
-    },
-    {
-      Titre: "Achat cartable",
-      montant: 4500,
-    },
+    // {
+    //   Titre: "Voiture",
+    //   montant: 40000,
+    // },
+    // {
+    //   Titre: "VentePc",
+    //   montant: 50000,
+    // },
+    // {
+    //   Titre: "Achat cartable",
+    //   montant: 4500,
+    // },
   ],
 };
 const BudgetReducer = (state = initial_state, action) => {
