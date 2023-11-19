@@ -1,1 +1,1 @@
-### Mini projet avec React Js qui calcule le budget a partir une liste des depenses.
+### Mini projet avec React Js qui calcule l ecart  a partir une liste des depenses et un budget entrée.
